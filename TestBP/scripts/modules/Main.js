@@ -1,1 +1,1 @@
-import "scripts/modules/chat.js";
+import "scripts/modules/players.js";

@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Test",
-    "description": "Test",
-    "uuid": "b1bd3855-6c4f-64bd-8635-e9d118518002",
+    "name": "Live Player Count",
+    "description": "Live Player Count",
+    "uuid": "7802264e-19ab-7ed5-e65c-050f7e6eac59",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "data",
-      "uuid": "479dd28e-1bb4-d683-81a4-19f40d412ce0",
+      "uuid": "efee8668-b36a-5b07-8162-56fbbe93e92f",
       "version": [
         1,
         0,
@@ -27,7 +27,7 @@
     },
     {
       "type": "javascript",
-      "uuid": "56e34d1b-190b-b955-ffda-7404d555f10c",
+      "uuid": "8015a237-1bd1-e7b6-65b3-a8976c807245",
       "version": [
         1,
         0,

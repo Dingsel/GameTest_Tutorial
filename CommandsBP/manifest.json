@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Live Player Count",
-    "description": "Live Player Count",
-    "uuid": "7802264e-19ab-7ed5-e65c-050f7e6eac59",
+    "name": "Custom Comands (Basic)",
+    "description": "Custom Comands (Basic)",
+    "uuid": "7be03e97-6478-e153-99c2-0d1fc3cb9926",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "data",
-      "uuid": "efee8668-b36a-5b07-8162-56fbbe93e92f",
+      "uuid": "7e5802cb-f26a-a405-9a2b-1ac6e41040ce",
       "version": [
         1,
         0,
@@ -27,7 +27,7 @@
     },
     {
       "type": "javascript",
-      "uuid": "8015a237-1bd1-e7b6-65b3-a8976c807245",
+      "uuid": "4348cbcf-c346-ae65-e35b-ea59c07983d9",
       "version": [
         1,
         0,

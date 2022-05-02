@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Custom Comands (Basic)",
-    "description": "Custom Comands (Basic)",
-    "uuid": "651b6b9c-2797-a4f3-49d1-5350236abe02",
+    "name": "Compas UI ",
+    "description": "Compas UI ",
+    "uuid": "71fa6982-6d6e-aa9b-6cd6-6474a44a43dc",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "resources",
-      "uuid": "161d9375-607f-2b14-4023-0e69b8d690e8",
+      "uuid": "0f1e0678-bfca-8216-dd60-a28edad444a3",
       "version": [
         1,
         0,
@@ -28,7 +28,7 @@
   ],
   "dependencies": [
     {
-      "uuid": "7be03e97-6478-e153-99c2-0d1fc3cb9926",
+      "uuid": "477ee95a-fde4-79ad-62ec-d3492911088f",
       "version": [
         1,
         0,

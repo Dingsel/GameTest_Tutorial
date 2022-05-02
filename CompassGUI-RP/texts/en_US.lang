@@ -1,0 +1,4 @@
+pack.name=Test
+pack.description=Test
+item.Test:compass=Compass
+item.test:compass=Compass

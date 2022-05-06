@@ -1,19 +1,26 @@
 import { world } from "mojang-minecraft"
-import { ActionFormData } from "mojang-minecraft-ui"
+import { ActionFormData, ModalFormData } from "mojang-minecraft-ui"
 
-const form = new ActionFormData()
-.title("Menu")
-.body("Please Select something")
-.button("Spawn")
-.button("Home")
-.button("Shop")
+const modal = new ModalFormData()
+    .title("Menu")
+    .toggle("Test Toggle")
+    .slider("Test Slider", 0, 10, 2)
+    .dropdown("Test Dropdown", ["Option 1", "Option 2", "Option 3"])
+    .textField("Test Text Field", "Please enter something")
 
 world.events.beforeItemUse.subscribe(eventData => {
-    if(eventData.item.id == "test:compass") {
+    if (eventData.item.id == "test:compass") {
         const player = eventData.source
-        form.show(player).then(result => {
-            if(result.selection === 0){
-                player.runCommand("tp @s ~ ~100 ~")
+        modal.show(player).then(result => {
+            if (result.formValues[0] == true) {
+                player.runCommand("say toggle was toggled")
+            }
+            player.runCommand(`say the value entered is ${result.formValues[1]}`)
+            if(result.formValues[2] == 0) {
+                player.runCommand("say option 1 was selected")
+            }
+            if(result.formValues[3] == "Hallo") {
+                player.runCommand("say Hallo wurde geschrieben")
             }
 
         })

@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Compas UI ",
-    "description": "Compas UI ",
-    "uuid": "71fa6982-6d6e-aa9b-6cd6-6474a44a43dc",
+    "name": "ModalForm Compass GUI",
+    "description": "ModalForm Compass GUI",
+    "uuid": "40302d8f-5c15-4a80-a8ca-0024ce6b384e",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "resources",
-      "uuid": "0f1e0678-bfca-8216-dd60-a28edad444a3",
+      "uuid": "411d7606-7630-d7b1-c8f3-fd0c450ab66c",
       "version": [
         1,
         0,
@@ -28,7 +28,7 @@
   ],
   "dependencies": [
     {
-      "uuid": "477ee95a-fde4-79ad-62ec-d3492911088f",
+      "uuid": "eef0411f-986b-5317-c1c4-1c0e9c12b12a",
       "version": [
         1,
         0,

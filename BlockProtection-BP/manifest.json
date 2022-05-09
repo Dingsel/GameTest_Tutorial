@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "ModalForm Compass GUI",
-    "description": "ModalForm Compass GUI",
-    "uuid": "eef0411f-986b-5317-c1c4-1c0e9c12b12a",
+    "name": "Block Protection",
+    "description": "Block Protection",
+    "uuid": "9a77d611-e83b-0fa7-e302-136ae3145e88",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "data",
-      "uuid": "e831fe2c-2ae5-31c8-51ca-0c2fb43f2e8e",
+      "uuid": "dbb21c7e-eb9a-0281-01c5-64fa4bba4bed",
       "version": [
         1,
         0,
@@ -27,7 +27,7 @@
     },
     {
       "type": "javascript",
-      "uuid": "95ee6c0b-86e2-7564-6983-2ccd5d81e6af",
+      "uuid": "5a41d072-6621-70db-6825-f01293525877",
       "version": [
         1,
         0,
@@ -54,14 +54,6 @@
         1,
         0
       ]
-    },
-			{
-			"uuid": "2BD50A27-AB5F-4F40-A596-3641627C635E",
-			"version": [
-				0,
-				1,
-				0
-			]
-		}
+    }
   ]
 }

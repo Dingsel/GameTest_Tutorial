@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Block Protection",
-    "description": "Block Protection",
-    "uuid": "9a77d611-e83b-0fa7-e302-136ae3145e88",
+    "name": "Ban System",
+    "description": "Ban System",
+    "uuid": "e391453a-cd8e-39c9-da8f-b0b1afc55c82",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "data",
-      "uuid": "dbb21c7e-eb9a-0281-01c5-64fa4bba4bed",
+      "uuid": "13a7cbec-6778-5082-15ab-db9102fff3d5",
       "version": [
         1,
         0,
@@ -27,7 +27,7 @@
     },
     {
       "type": "javascript",
-      "uuid": "5a41d072-6621-70db-6825-f01293525877",
+      "uuid": "94a170db-cb8c-b366-176c-3a67c076986b",
       "version": [
         1,
         0,

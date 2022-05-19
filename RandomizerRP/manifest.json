@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Random Item",
-    "description": "Random Item",
-    "uuid": "2d81096d-a069-a945-800f-b8ab5f454a0e",
+    "name": "Randomizer",
+    "description": "Randomizer",
+    "uuid": "fa8ae795-1d34-4afe-6af3-5fb5da3c8d82",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "resources",
-      "uuid": "4820665a-2f12-03cb-25f6-34f34f4263b7",
+      "uuid": "5323c358-0528-0c42-dc3c-bc12a1b17f95",
       "version": [
         1,
         0,
@@ -28,12 +28,18 @@
   ],
   "dependencies": [
     {
-      "uuid": "fb6d08dd-e22c-5bd0-7226-ff87ed15f5d3",
+      "uuid": "bc8ce3f9-1aeb-5193-6bfc-5fb5b3dda9ce",
       "version": [
         1,
         0,
         0
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "authors": [
+      "Dingsel"
+    ],
+    "url": "https://github.com/Dingsel/GameTest_Tutorial/releases/tag/%2309"
+  }
 }

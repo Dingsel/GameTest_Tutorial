@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"Test_compass": {
+			"textures": "textures/items/compass"
+		},
+		"test_compass": {
+			"textures": "textures/items/compass"
+		}
+	}
+}

@@ -1,1 +1,0 @@
-import "scripts/modules/ban.js"

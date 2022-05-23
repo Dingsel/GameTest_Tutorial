@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Randomizer",
-    "description": "Randomizer",
-    "uuid": "bc8ce3f9-1aeb-5193-6bfc-5fb5b3dda9ce",
+    "name": "Health Display",
+    "description": "Health Display",
+    "uuid": "049b6161-a6f1-396e-a487-d17e4acca92b",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "data",
-      "uuid": "13c3dc60-29bf-e3b3-d322-6a084d777da6",
+      "uuid": "56ac308e-0724-fb45-ece2-746fa5572176",
       "version": [
         1,
         0,
@@ -27,7 +27,7 @@
     },
     {
       "type": "javascript",
-      "uuid": "ad4c6f4c-961b-0ae1-fdc9-ae83d44ca646",
+      "uuid": "62ab424a-4060-5cc3-1628-9d9fc4519d7e",
       "version": [
         1,
         0,
@@ -55,11 +55,5 @@
         0
       ]
     }
-  ],
-  "metadata": {
-    "authors": [
-      "Dingsel"
-    ],
-    "url": "https://github.com/Dingsel/GameTest_Tutorial/releases/tag/%2309"
-  }
+  ]
 }

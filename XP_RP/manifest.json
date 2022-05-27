@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Health Display",
-    "description": "Health Display",
-    "uuid": "50b4994f-bf93-e14f-6975-a4930af9aeb8",
+    "name": "XP SYSTEM",
+    "description": "XP SYSTEM",
+    "uuid": "1bcf6dfb-ca00-0574-3fb5-af636bf20809",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "resources",
-      "uuid": "4142727a-37b6-a786-e474-a90433b6a9e9",
+      "uuid": "b4e9e91d-2400-124d-6492-24041f79a69a",
       "version": [
         1,
         0,
@@ -28,7 +28,7 @@
   ],
   "dependencies": [
     {
-      "uuid": "049b6161-a6f1-396e-a487-d17e4acca92b",
+      "uuid": "4e7adf1a-1dfc-329c-a42a-18b529b41572",
       "version": [
         1,
         0,

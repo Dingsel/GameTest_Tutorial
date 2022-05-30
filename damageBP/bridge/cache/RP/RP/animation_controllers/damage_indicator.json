@@ -1,0 +1,58 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TestRP\\animation_controllers\\damage_indicator.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.10.0",
+		"animation_controllers": {
+			"controller.animation.damage_indicator.drip": {
+				"initial_state": "default",
+				"states": {
+					"default": {
+						"transitions": [
+							{
+								"dripping": "query.is_powered"
+							}
+						]
+					},
+					"dripping": {
+						"particle_effects": [
+							{
+								"effect": "nectar_dripping"
+							}
+						],
+						"transitions": [
+							{
+								"default": "!query.is_powered"
+							}
+						]
+					}
+				}
+			},
+			"controller.animation.damage_indicator.sting": {
+				"initial_state": "default",
+				"states": {
+					"default": {
+						"animations": [
+							"damage_indicator_sting"
+						]
+					}
+				}
+			},
+			"controller.animation.damage_indicator.root": {
+				"initial_state": "default",
+				"states": {
+					"default": {
+						"animations": [
+							"flying",
+							"drip",
+							"damage_indicator_fly_bobbing",
+							"controller_damage_indicator_sting"
+						]
+					}
+				}
+			}
+		}
+	},
+	"file_uuid": "2ffab16a_5059_40d0_83b2_284e764afca6"
+}

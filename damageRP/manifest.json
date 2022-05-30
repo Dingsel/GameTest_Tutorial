@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Damage Indiacator",
+    "description": "Damage Indiacator",
+    "uuid": "8e8f0ef1-289c-c7bf-460b-451a8a31fc2b",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "a731c837-1a2e-815f-56ba-1344852538b5",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "9f44a893-16ef-e2fe-3e20-854bcac5ddde",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

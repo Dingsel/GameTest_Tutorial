@@ -1,0 +1,205 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TestRP\\entity\\damage_indicator.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "697cf086_74ec_47ef_bd47_ae5f8e2c53fd",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "test:damage_indicator",
+							"materials": {
+								"dealut": "entity"
+							},
+							"textures": {
+								"default": "textures/entity/damage_indicator"
+							},
+							"geometry": {
+								"default": "geometry.default"
+							},
+							"render_controllers": [
+								"controller.render.damage_indicator"
+							],
+							"spawn_egg": {
+								"texture": "damage_indicator",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "test:damage_indicator",
+								"materials": {
+									"dealut": "entity"
+								},
+								"textures": {
+									"default": "textures/entity/damage_indicator"
+								},
+								"geometry": {
+									"default": "geometry.default"
+								},
+								"render_controllers": [
+									"controller.render.damage_indicator"
+								],
+								"spawn_egg": {
+									"texture": "damage_indicator",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "test:damage_indicator",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "test:damage_indicator",
+									"materials": {
+										"dealut": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/damage_indicator"
+									},
+									"geometry": {
+										"default": "geometry.default"
+									},
+									"render_controllers": [
+										"controller.render.damage_indicator"
+									],
+									"spawn_egg": {
+										"texture": "damage_indicator",
+										"texture_index": 0
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"dealut": "entity"
+								}
+							},
+							{
+								"open": {
+									"identifier": "test:damage_indicator",
+									"materials": {
+										"dealut": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/damage_indicator"
+									},
+									"geometry": {
+										"default": "geometry.default"
+									},
+									"render_controllers": [
+										"controller.render.damage_indicator"
+									],
+									"spawn_egg": {
+										"texture": "damage_indicator",
+										"texture_index": 0
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/damage_indicator"
+								}
+							},
+							{
+								"open": {
+									"identifier": "test:damage_indicator",
+									"materials": {
+										"dealut": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/damage_indicator"
+									},
+									"geometry": {
+										"default": "geometry.default"
+									},
+									"render_controllers": [
+										"controller.render.damage_indicator"
+									],
+									"spawn_egg": {
+										"texture": "damage_indicator",
+										"texture_index": 0
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.default"
+								}
+							},
+							{
+								"open": {
+									"identifier": "test:damage_indicator",
+									"materials": {
+										"dealut": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/damage_indicator"
+									},
+									"geometry": {
+										"default": "geometry.default"
+									},
+									"render_controllers": [
+										"controller.render.damage_indicator"
+									],
+									"spawn_egg": {
+										"texture": "damage_indicator",
+										"texture_index": 0
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.damage_indicator"
+								]
+							},
+							{
+								"open": {
+									"identifier": "test:damage_indicator",
+									"materials": {
+										"dealut": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/damage_indicator"
+									},
+									"geometry": {
+										"default": "geometry.default"
+									},
+									"render_controllers": [
+										"controller.render.damage_indicator"
+									],
+									"spawn_egg": {
+										"texture": "damage_indicator",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "damage_indicator",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

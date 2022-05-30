@@ -1,0 +1,102 @@
+{
+	"sound_definitions": {
+		"mob.damage_indicator.aggressive": {
+			"category": "neutral",
+			"max_distance": 8,
+			"sounds": [
+				{
+					"name": "sounds/mob/damage_indicator/aggressive1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/damage_indicator/aggressive2",
+				"sounds/mob/damage_indicator/aggressive3"
+			]
+		},
+		"mob.damage_indicator.death": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/damage_indicator/death1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/damage_indicator/death2"
+			]
+		},
+		"mob.damage_indicator.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/damage_indicator/hurt1",
+				"sounds/mob/damage_indicator/hurt2",
+				"sounds/mob/damage_indicator/hurt3",
+				"sounds/mob/damage_indicator/hurt1",
+				{
+					"name": "sounds/mob/damage_indicator/hurt2",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/damage_indicator/hurt3"
+			]
+		},
+		"mob.damage_indicator.loop": {
+			"category": "neutral",
+			"max_distance": 6,
+			"sounds": [
+				"sounds/mob/damage_indicator/loop1",
+				"sounds/mob/damage_indicator/loop2",
+				"sounds/mob/damage_indicator/loop3",
+				"sounds/mob/damage_indicator/loop4",
+				{
+					"name": "sounds/mob/damage_indicator/loop5",
+					"load_on_low_memory": true
+				}
+			]
+		},
+		"mob.damage_indicator.pollinate": {
+			"category": "neutral",
+			"max_distance": 12,
+			"sounds": [
+				{
+					"name": "sounds/mob/damage_indicator/pollinate1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/damage_indicator/pollinate2",
+				"sounds/mob/damage_indicator/pollinate3",
+				"sounds/mob/damage_indicator/pollinate4"
+			]
+		},
+		"mob.damage_indicator.sting": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/damage_indicator/sting"
+			]
+		},
+		"mob.damage_indicator.say": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/damage_indicator/say1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/damage_indicator/say2",
+				"sounds/mob/damage_indicator/say3",
+				"sounds/mob/damage_indicator/say4"
+			]
+		},
+		"mob.damage_indicator.step": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/damage_indicator/step1",
+				"sounds/mob/damage_indicator/step2",
+				"sounds/mob/damage_indicator/step3",
+				"sounds/mob/damage_indicator/step4"
+			]
+		},
+		"mob.damage_indicator.milk": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/damage_indicator/milk1",
+				"sounds/mob/damage_indicator/milk2",
+				"sounds/mob/damage_indicator/milk3"
+			]
+		}
+	}
+}

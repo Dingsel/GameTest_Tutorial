@@ -1,0 +1,62 @@
+{
+	"entity_model": {
+		"RP/RP/models/entity/damage_indicator.json": {
+			"old_identifiers": [
+				"geometry.damage_indicator"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/damage_indicator.json": {
+			"events": [
+				"death"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"test:damage_indicator"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"render_controller": {
+		"RP/RP/render_controllers/damage_indicator.json": {
+			"ids": [
+				"controller.render.damage_indicator"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/RP/animations/damage_indicator.json": {
+			"ids": [
+				"animation.damage_indicator.baby_transform",
+				"animation.damage_indicator.setup",
+				"animation.damage_indicator.setup.v1.0"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/RP/entity/damage_indicator.json": {
+			"identifiers": [
+				"test:damage_indicator"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"dealut"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Test\\spawn_rules\\damage_indicator.json",
+	"file_type": "spawn_rule",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"minecraft:spawn_rules": {
+			"description": {
+				"identifier": "test:damage_indicator",
+				"population_control": "animal"
+			},
+			"conditions": [
+				{
+					"minecraft:spawns_on_surface": {},
+					"minecraft:spawns_on_block_filter": "minecraft:grass",
+					"minecraft:brightness_filter": {
+						"min": 7,
+						"max": 15,
+						"adjust_for_weather": false
+					},
+					"minecraft:weight": {
+						"default": 8
+					},
+					"minecraft:herd": {
+						"min_size": 2,
+						"max_size": 3
+					},
+					"minecraft:biome_filter": {
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "animal"
+					}
+				}
+			]
+		}
+	},
+	"file_uuid": "b049a4b7_0e91_4b03_95f8_873682e5fed5"
+}

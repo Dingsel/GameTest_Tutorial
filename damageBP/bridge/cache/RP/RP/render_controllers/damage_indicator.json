@@ -1,0 +1,22 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\TestRP\\render_controllers\\damage_indicator.json",
+	"file_type": "render_controller",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"render_controllers": {
+			"controller.render.damage_indicator": {
+				"geometry": "Geometry.default",
+				"materials": [
+					{
+						"*": "Material.default"
+					}
+				],
+				"textures": [
+					"Texture.default"
+				]
+			}
+		}
+	},
+	"file_uuid": "5cc596db_3334_454a_a799_9318fb7f616a"
+}

@@ -1,0 +1,8 @@
+pack.name=Test
+pack.description=Test
+item.Test:compass=Compass
+item.test:compass=Compass
+item.spawn_egg.entity.test:damage_indicator.name=Spawn Damage indicator
+entity.test:damage_indicator.name=Damage indicator
+item.spawn_egg.entity.test:damage_indicator.name=Spawn Damage indicator
+entity.test:damage_indicator.name=Damage indicator

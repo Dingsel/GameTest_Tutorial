@@ -1,0 +1,49 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "test:damage_indicator",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:snowball"
+		},
+		"component_groups": {
+			"ded": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:timer": {
+				"time": [
+					2,
+					2
+				],
+				"time_down_event": {
+					"event": "death"
+				}
+			},
+			"minecraft:nameable": {
+				"always_show": true
+			}
+		},
+		"events": {
+			"death": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"ded"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
